@@ -1,0 +1,13 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja "-DCMAKE_CXX_FLAGS=-Wall -Wextra -Wconversion -Wsign-conversion -pedantic" -G Ninja -S "/Users/guy-michelbreguet/VLT_RACKSTATION/GUY-MICHEL/HEIG-VD/_Enseignements/Analyse_et_Pgm/PRG/PRG1 - 2023/2023_PRG1_COURS/2_Demos/02_Elements_Bases" -B "/Users/guy-michelbreguet/VLT_RACKSTATION/GUY-MICHEL/HEIG-VD/_Enseignements/Analyse_et_Pgm/PRG/PRG1 - 2023/2023_PRG1_COURS/2_Demos/02_Elements_Bases/cmake-build-debug"
+-- Configuring done
+CMake Error at CMakeLists.txt:7 (add_executable):
+  Cannot find source file:
+
+    03_01_spaceship.cpp
+
+
+CMake Error at CMakeLists.txt:7 (add_executable):
+  No SOURCES given to target: 02_Elements_Bases
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
